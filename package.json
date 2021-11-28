@@ -1,0 +1,12 @@
+{
+  "name": "webpack-global-ponyfill-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}
