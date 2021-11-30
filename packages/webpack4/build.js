@@ -9,5 +9,5 @@ webpack({
         filename: 'bundle.js',
     }
 }, (err, stats) => {
-    // console.log(stats)
+    // console.log(stats.toJson().modules)
 })
