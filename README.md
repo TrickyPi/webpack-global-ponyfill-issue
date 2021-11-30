@@ -1,12 +1,15 @@
 # webpack-global-ponyfill-issue
 
+## Current behavior
+Not generated webpack runtime global code in bundled file
+
 ## Step
 1. npm i
 2. node ./addGlobalModule.js
 3. npm run build --workspaces
 4. See packages/webpack5/dist/bundle.js
 
-## Expected
+## Expected behavior
 Expect following code in packages/webpack5/dist/bundle.js
 ```js
 /******/ 	/* webpack/runtime/global */
